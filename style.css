@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#search-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#location-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#dashboard {
+    /* Add styling for the dashboard data here */
+}
+
+#error-message {
+    color: #c0392b;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ecf0f1;
+}
